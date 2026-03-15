@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #d62828;   
+}
+
+header {
+    background-color: #d62828;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe5e5;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #d62828;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    border: 2px solid #d62828;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background-color: #d62828;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #d62828;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #e63946;
+}
+
+
+button {
+    padding: 12px;
+    background-color: #d62828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e63946;
+}
+
+
+footer {
+    background-color: #d62828;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
